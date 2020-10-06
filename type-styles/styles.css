@@ -1,0 +1,39 @@
+html {
+    color: #1271a0bf;
+    font-family: 'Crimson Text', serif;
+    font-size: 20pt;
+
+}
+
+body {
+    margin: 5%;
+}
+
+h1 {
+    color: crimson;
+    font-size: 50pt;
+    text-indent: -2rem;
+    line-height: 1pt;
+    margin-bottom: 3%;
+}
+
+h2 {
+    color: crimson;
+    font-size: 25pt;
+    margin-bottom: 3%;
+    text-indent: -2rem;
+    line-height: 1pt;
+}
+
+section {
+    margin: 5em 0;
+}
+
+sup {
+    font-size: 75%;
+    line-height: 20%;
+}
+
+p {
+    line-height: 20%;
+}
