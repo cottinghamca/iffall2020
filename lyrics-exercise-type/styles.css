@@ -1,0 +1,52 @@
+html {
+    font-family: priori-acute-serif, sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: priori-acute-serif, sans-serif;
+    width: 20%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    color: whitesmoke;
+    font-family: priori-acute-serif, sans-serif;
+    line-height: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: priori-acute-serif, sans-serif;
+    color:whitesmoke;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: priori-acute-serif, sans-serif;
+    color: darkslateblue;
+    font-weight: bolder;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: priori-acute-serif, sans-serif;
+}
+
+footer {
+    color: grey;
+    font-size: 15px;
+}
+
+section {
+    margin: 3.5em 0;
+}
