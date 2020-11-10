@@ -1,0 +1,81 @@
+html {
+    font-family: 'Cardo', serif; 
+    background-color: #98fbd66b;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: #ffa600c4;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+    color: #00801cb5;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 320px;
+    width: 90%;
+}
+
+@media (min-width: 640px) {
+    .page div {
+        width: 50%;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients li {
+    list-style-type: none;
+}
+
+.ingredients ul{
+    padding: 0;
+}
+
+.recipe li {
+    list-style-type: none;
+}
+
+.recipe ul {
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+footer {
+    margin-top: 10%;
+    color: grey;
+}
+
