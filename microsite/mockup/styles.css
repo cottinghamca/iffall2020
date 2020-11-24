@@ -1,0 +1,10 @@
+
+
+img {
+    width: 100%;
+    margin: auto;
+    max-width: 1400px;
+    min-width: 1000px;
+    display: block;
+    margin-bottom: 10px;
+}
