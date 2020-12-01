@@ -1,0 +1,266 @@
+.bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: rgb(231, 202, 140); */
+    background-color: rgb(131, 158, 75);
+    top: 0;
+    position: fixed;
+    max-width: 800px;
+    width: 90%;
+  }
+  
+.bar li {
+    float: left;
+    /* border-right: 1px solid whitesmoke; */
+  }
+
+/* li:last-child {
+    border-right: none;
+} */
+  
+.bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+.bar li a:hover {
+    /* background-color: rgb(245, 180, 41); */
+    background-color: rgb(75, 92, 40);
+  }
+
+/* add to each page */
+.active {
+    background-color: rgb(145, 52, 36);
+}
+
+.fa-pepper-hot {
+    color: white;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(145, 52, 36);
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.spices {
+    width: 100%;
+    margin-top: 50px;
+}
+
+body {
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.page {
+    background-color: wheat;
+    padding-bottom: 150px;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: wheat;
+    font-family: 'Quicksand', sans-serif;
+    font: 10px;
+}
+
+.timeline {
+    background-color: white;
+    width: 95%;
+    margin-top: 50px;
+    border: 5px solid wheat;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.asia {
+    background-color: white;
+    width: 95%;
+    margin-top: 50px;
+    border: 5px solid wheat;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin: 25px;
+    text-align: justify;
+    max-width: 800px;
+    text-decoration: none;
+    color: black;
+}
+
+.text a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 800px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-break: 10px;
+}
+
+.common a{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.common img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.common div {
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+    font: 20px;
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.common ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+.common li{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.healing a{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.healing img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+
+.healing div {
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    font: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.healing ul {
+    display: grid;
+    list-style-type: none;
+    margin: 25px;
+    padding: 0;
+}
+
+.healing li{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    color: rgb(75, 92, 40);
+    font-size: 25px;
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: wheat;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+  
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  .container:hover .overlay {
+    transform: scale(1);
+  }
+  
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  .word {
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+  }
