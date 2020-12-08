@@ -1,0 +1,526 @@
+html {
+    background-image: url(images/background.jpg);
+}
+
+.bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: rgb(231, 202, 140); */
+    background-color: rgb(131, 158, 75);
+    top: 0;
+    position: fixed;
+    max-width: 800px;
+    width: 90%;
+    overflow: hidden;
+  }
+  
+.bar li {
+    float: right;
+    /* border-right: 1px solid whitesmoke; */
+  }
+
+/* li:last-child {
+    border-right: none;
+} */
+  
+.bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    overflow: hidden;
+  }
+
+.bar li a:hover {
+    /* background-color: rgb(245, 180, 41); */
+    background-color: rgb(75, 92, 40);
+  }
+
+/* add to each page */
+.active {
+    background-color: rgb(145, 52, 36);
+}
+
+.fa-pepper-hot {
+    color: white;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(145, 52, 36);
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.spices {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container {
+    position: relative;
+    max-width: 800px; 
+    /* margin: 0 auto;  */
+  }
+  
+  .container .content {
+    position: absolute; 
+    bottom: 5px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    width: 90%;
+    /* padding: 30px;  */
+    padding: 5%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600px;
+    font-size: 20px;
+  }
+
+body {
+    width: 90%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.page {
+    background-color: wheat;
+    padding-bottom: 150px;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: wheat;
+    font-family: 'Quicksand', sans-serif;
+    font: 10px;
+}
+
+/* history page */
+
+.links {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+
+.row img {
+    border-radius: 50%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 8%;
+    padding: 8px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  } */
+
+.timeline {
+    background-color: white;
+    width: 90%;
+    margin-top: 50px;
+    /* border: 5px solid wheat; */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img.timeline {
+    /* position: -webkit-sticky;  */
+    position: fixed;
+    top: 0;
+    max-width: 800px;
+    width: 90%;
+    height: 50%;
+  }
+
+.asia {
+    background-color: white;
+    width: 95%;
+    margin-top: 50px;
+    border: 5px solid wheat;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    margin: 25px;
+    text-align: justify;
+    max-width: 800px;
+    text-decoration: none;
+    color: black;
+}
+
+.text a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 800px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-break: 10px;
+}
+
+.common a{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.common img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 5px solid white;
+}
+
+.common div {
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+    font: 20px;
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    /* margin-bottom: 30px; */
+}
+
+.common ul {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+.common li{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+
+/* healing page */
+
+.healing img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.healing div {
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    font: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.healing ul {
+    display: grid;
+    list-style-type: none;
+    margin: 25px;
+    padding: 0;
+}
+
+.healing li{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.healing b {
+    font-size: 30px;
+    color: rgb(75, 92, 40);
+}
+
+/* bottom nav bar */
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: rgb(145, 52, 36);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 47.5%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: rgb(131, 158, 75);
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+
+
+h3 {
+    color: rgb(75, 92, 40);
+    font-size: 25px;
+}
+
+/* parallax */
+
+.parallax {
+    background-image: url("images/crab.jpg");
+  
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 50%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+}
+
+.parallaxa {
+    background-image: url("images/khantoke.jpg");
+  
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 50%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallaxa {
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+}
+
+.parallaxb {
+    background-image: url("images/curry.jpg");
+  
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 50%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallaxb {
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+}
+
+.parallaxc {
+    background-image: url("images/hawthorns.jpg");
+  
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 50%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallaxc {
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+}
+
+.parallaxd {
+    background-image: url("images/kimchi.jpg");
+  
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 50%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallaxd {
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+}
+
+.parallaxe {
+    background-image: url("images/satay.jpg");
+  
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 50%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallaxe {
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+}
+
+.parallaxf {
+    background-image: url("images/kacang.jpg");
+  
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 50%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallaxf {
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+}
+
+.parallaxg {
+    background-image: url("images/sushi.jpg");
+  
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 50%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallaxg {
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+}
+
+.parallaxh {
+    background-image: url("images/adobo.jpg");
+  
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 50%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallaxh {
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+}
+
+.parallaxi {
+    background-image: url("images/bun.jpg");
+  
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 50%;
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallaxi {
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+}
+
